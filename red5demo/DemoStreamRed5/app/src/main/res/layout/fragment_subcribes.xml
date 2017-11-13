@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mydemostreamred5.ui.fragment.SubcribesFragment">
+
+  <com.red5pro.streaming.view.R5VideoView
+      android:id="@+id/videoview"
+      android:layout_weight="9"
+      android:layout_width="match_parent"
+      android:layout_height="0dp">
+
+  </com.red5pro.streaming.view.R5VideoView>
+    <Button
+        android:id="@+id/btnsubcribes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="start"
+        android:layout_weight="1"/>
+
+</LinearLayout>
